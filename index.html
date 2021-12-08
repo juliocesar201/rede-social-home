@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>FRAME OF PETS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/4a27b81c39.js" crossorigin="anonymous"></script>
+        
+    </head>
+
+    <body>
+        
+        <nav>
+            <div class="nav-left">
+                <img src="images/icon1.png" alt="logo" class="logo">
+                <ul class="ul-nav-left">
+                    <li><img src="images/notification.png" alt="notification"></li>
+                    <li><img src="images/inbox.png" alt="inbox"></li>
+                    <li><img src="images/video.png" alt="video"></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-nav-right">
+                    <img src="images/search.png" alt="search">
+                    <input type="text" id="search" name="search" placeholder="procurar">
+                </div>
+                <div class="profile-image-nav online">
+                    <img src="images/perfil.jpg" alt="user profile">
+                </div>
+            </div>
+
+            <!-- Menu de configurações (menu de configurações de perfil) -->
+            <div class="settings-menu" style="display: none;">
+                <div class="user-post-header">
+                    <div class="user-profile-config">
+                        <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                        <div class="user-post-info">
+                            <p>Jack</p>
+                            <a href="#">Veja o seu perfile</a>
+                        </div>
+                    </div>
+                    <!-- <div class="interruptor mais leve"></div> -->
+                    <div class="toggle-dark">
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <div class="user-post-header settings__report">
+                    <img class="profile-picture-main" src="images/feedback.png" alt="user picture">
+                    <div class="user-post-info">
+                        <p>Dê retorno</p>
+                        <a href="#">Ajude-nos a melhorar o novo design</a>
+                    </div>
+                </div>
+                <div class="settings__options">
+                    <div class="user-post-header settings__config">
+                        <div class="user-profile-config">
+                            <img class="profile-picture-main" src="images/setting.png" alt="user picture">
+                            <div class="user-post-info">
+                                <p>Jack</p>
+                            </div>
+                        </div>
+                        <img class="config__arrow-img" src="images/arrow.png" alt="">
+                    </div>
+                    <div class="user-post-header settings__config">
+                        <div class="user-profile-config">
+                            <img class="profile-picture-main" src="images/help.png" alt="user picture">
+                            <div class="user-post-info">
+                                <p>Jack</p>
+                            </div>
+                        </div>
+                        <img class="config__arrow-img" src="images/arrow.png" alt="">
+                    </div>
+                    <div class="user-post-header settings__config">
+                        <div class="user-profile-config">
+                            <img class="profile-picture-main" src="images/display.png" alt="user picture">
+                            <div class="user-post-info">
+                                <p>Jack</p>
+                            </div>
+                        </div>
+                        <img class="config__arrow-img" src="images/arrow.png" alt="">
+                    </div>
+                    <div class="user-post-header settings__config">
+                        <div class="user-profile-config">
+                            <img class="profile-picture-main" src="images/logout.png" alt="user picture">
+                            <div class="user-post-info">
+                                <p>Jack</p>
+                            </div>
+                        </div>
+                        <img class="config__arrow-img" src="images/arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <!-- LEFT SIDEBAR -->
+            <div class="left-sidebar">
+                <div class="links-left">
+                    <a href="#"><img src="images/noticias.png" alt="news">Últimas notícias</a>
+                    <a href="#"><img src="images/friends.png" alt="friends">Amigos</a>
+                    <a href="#"><img src="images/group.png" alt="group">Grupos</a>
+                    <a href="#"><img src="images/marketplace.png" alt="marketplace">Mercado</a>
+                    <a href="#"><img src="images/tv.png" alt="watch">Assistir</a>
+                    <a href="#">Ver mais</a>
+                </div>
+                <div class="shortcuts-left">
+                    <p>Seus atalhos</p>
+                    <a href="#"><img src="images/porco.jpg" alt="shortcut-1">Desenvolvedores da Web</a>
+                    <a href="#"><img src="images/ovelha.jpg" alt="shortcut-2">Curso de web design</a>
+                    <a href="#"><img src="images/dog.jpg" alt="shortcut-3">Desenvolvimento Full Stack</a>
+                    <a href="#"><img src="images/coelho" alt="shortcut-4">Especialistas em sites</a>
+                </div>
+            </div>
+
+            <!-- MAIN -->
+            <div class="main">
+                <div class="stories">
+                    <div class="user-story">
+                        <div class="upload">
+                            <img src="images/upload.png" alt="">
+                            <p>Publicar história</p>
+                        </div>
+                    </div>
+                    <div class="friend-story">
+                        <img src="images/porco.jpg" alt="">
+                        <p>Alison</p>
+                    </div>
+                    <div class="friend-story">
+                        <img src="images/dog.jpg" alt="">
+                        <p>Jackson</p>
+                    </div>
+                    <div class="friend-story">
+                        <img src="images/golfinho.jpg" alt="">
+                        <p>Samona</p>
+                    </div>
+                    <div class="friend-story">
+                        <img src="images/gato.jpg" alt="">
+                        <p>John Doe</p>
+                    </div>
+                </div>
+                <div class="user-post">
+                    <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                    <div class="post-body">
+                        <div class="user-status">
+                            <p>Jack</p>
+                            <p>Público <i class="fas fa-caret-down"></i></p>
+                        </div>
+                        <textarea class="post-textarea" placeholder="What's on your mind, John?"></textarea>
+                        <ul class="user-post-options">
+                            <li><img src="images/live-video.png" alt="live video button">Vídeo ao vivo</li>
+                            <li><img src="images/photo.png" alt="photo and video button">Foto/Video</li>
+                            <li><img src="images/feeling.png" alt="activity button">Sentimento / Atividade</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="user-post post-body">
+                    <div class="user-post-header">
+                        <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                        <div class="user-post-info">
+                            <p>Jack</p>
+                            <p>24 Junho 2021, 13:40pm</p>
+                        </div>
+                    </div>
+                    <div class="user-post-content">
+                        <p>Inscreva-se no canal do Youtube @Easy Tutoriais para assistir mais vídeos no site Desenvolvimento
+                            e designs de IU. #EasyTutorials #YoutubeChannel
+                        </p>
+                        <img src="images/ovelha.jpg" alt="feed image">
+                    </div>
+                    <div class="user-post-reaction">
+                        <ul>
+                            <li><img src="images/ameipata.png" alt="like button">120</li>
+                            <li><img src="images/comments.png" alt="comments button">45</li>
+                            <li><img src="images/share.png" alt="share button">20</li>
+                        </ul>
+                        <div class="profile-picture-footer">
+                            <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-post post-body">
+                    <div class="user-post-header">
+                        <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                        <div class="user-post-info">
+                            <p>Jack</p>
+                            <p>junho 2021, 13:40pm</p>
+                        </div>
+                    </div>
+                    <div class="user-post-content">
+                        <p>Curta e compartilhe este vídeo com firend, tag @Easy Tutorials facebook pages
+                            em sua postagem. Tire suas dúvidas nos comentários #EasyTutorials #YoutubeChannel
+                        </p>
+                        <img src="images/dogs.jpg" alt="feed image">
+                    </div>
+                    <div class="user-post-reaction">
+                        <ul>
+                            <li><img src="images/ameipata.png" alt="like button">100</li>
+                            <li><img src="images/comments.png" alt="comments button">15</li>
+                            <li><img src="images/share.png" alt="share button">40</li>
+                        </ul>
+                        <div class="profile-picture-footer">
+                            <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-post post-body">
+                    <div class="user-post-header">
+                        <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                        <div class="user-post-info">
+                            <p>Jack</p>
+                            <p>24 junho 2021, 13:40pm</p>
+                        </div>
+                    </div>
+                    <div class="user-post-content">
+                        <p>Curta e compartilhe este vídeo com firend, tag @Easy Tutorials facebook pages
+                            em sua postagem. Tire suas dúvidas nos comentários #EasyTutorials #YoutubeChannel
+                        </p>
+                        <img src="images/dog.jpg" alt="feed image">
+                    </div>
+                    <div class="user-post-reaction">
+                        <ul>
+                            <li><img src="images/ameipata.png" alt="like button">400</li>
+                            <li><img src="images/comments.png" alt="comments button">43</li>
+                            <li><img src="images/share.png" alt="share button">46</li>
+                        </ul>
+                        <div class="profile-picture-footer">
+                            <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-post post-body">
+                    <div class="user-post-header">
+                        <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                        <div class="user-post-info">
+                            <p>Jack</p>
+                            <p>24 jumho 2021, 13:40pm</p>
+                        </div>
+                    </div>
+                    <div class="user-post-content">
+                        <p>Curta e compartilhe este vídeo com firend, tag @Easy Tutorials facebook pages
+                            em sua postagem. Tire suas dúvidas nos comentários #EasyTutorials #YoutubeChannel
+                        </p>
+                        <img src="images/familha.jpg" alt="feed image">
+                    </div>
+                    <div class="user-post-reaction">
+                        <ul>
+                            <li><img src="images/ameipata.png" alt="like button">190</li>
+                            <li><img src="images/comments.png" alt="comments button">55</li>
+                            <li><img src="images/share.png" alt="share button">70</li>
+                        </ul>
+                        <div class="profile-picture-footer">
+                            <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-post post-body">
+                    <div class="user-post-header">
+                        <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                        <div class="user-post-info">
+                            <p>Jack</p>
+                            <p>24 junho 2021, 13:40pm</p>
+                        </div>
+                    </div>
+                    <div class="user-post-content">
+                        <p>Curta e compartilhe este vídeo com firend, tag @Easy Tutorials facebook pages
+                            em sua postagem. Tire suas dúvidas nos comentários #EasyTutorials #YoutubeChannel
+                        </p>
+                        <img src="images/catdog.jpg" alt="feed image">
+                    </div>
+                    <div class="user-post-reaction">
+                        <ul>
+                            <li><img src="images/ameipata.png" alt="like button">90</li>
+                            <li><img src="images/comments.png" alt="comments button">23</li>
+                            <li><img src="images/share.png" alt="share button">20</li>
+                        </ul>
+                        <div class="profile-picture-footer">
+                            <img class="profile-picture-main" src="images/perfil.jpg" alt="user picture">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="load-post-button">
+                    <button>Carregue mais</button>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDEBAR -->
+            <div class="right-sidebar">
+                <div class="events-sidebar">
+                    <div class="title-sidebar">
+                        <p>Eventos</p>
+                        <a href="#">Clonograma</a>
+                    </div>
+                    <div class="events-content">
+                        <div class="event-info">
+                            <div class="event-calendar">
+                                <p class="event-day">18</p>
+                                <p class="event-month">Março</p>
+                            </div>
+                            <div class="event-description">
+                                <p class="description-event-name">Social Media</p>
+                                <p class="description-event-location"><img src="images/profile-location.png">Wilson Tech Park</p>
+                                <a href="#">mais informaçõe</a>
+                            </div>
+                        </div>
+                        <div class="event-info">
+                            <div class="event-calendar">
+                                <p class="event-day">22</p>
+                                <p class="event-month">Junnho</p>
+                            </div>
+                            <div class="event-description">
+                                <p class="description-event-name">Marketing Movel</p>
+                                <p class="description-event-location"><img src="images/profile-location.png">Wilson Tech Park</p>
+                                <a href="#">mais informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="advertisement-sidebar">
+                    <div class="title-sidebar">
+                        <p>propaganda</p>
+                        <a href="#">Fechar</a>
+                    </div>
+                    <img src="images/abc.jpg" alt="advertisement">
+                </div>
+                <div class="conversation-sidebar">
+                    <div class="title-sidebar">
+                        <p>Conversas</p>
+                        <a href="#">Esconder bate-papot</a>
+                    </div>
+                    <div class="conversation-people online-friends">
+                        <img src="images/porco.jpg" alt="pessoa de conversa">
+                        <p>Alison Mina</p>
+                    </div>
+                    <div class="conversation-people online-friends">
+                        <img src="images/dog.jpg" alt="pessoa de conversa">
+                        <p>Jackson Aston</p>
+                    </div>
+                    <div class="conversation-people online-friends">
+                        <img src="images/cat.jpg" alt="pessoa de conversa">
+                        <p>Samana Rose</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-page">
+            <p><span>&copy; Copyright</span>- All rights reserved to <a href="https://www.youtube.com/c/EasyTutorialsVideo" target="_blank">@EasyTutorials</a>.</p>
+        </div>
+
+        <script src="js/settings.js"></script>
+    </body>
+</html>
